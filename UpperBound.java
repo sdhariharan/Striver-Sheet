@@ -22,12 +22,11 @@ public class UpperBound {
                 ans = mid;
                 high = mid - 1;
 
-            } else {
-
+            }
+            else{
                 low = mid + 1;
             }
         }
-
         System.out.println("Upper Bound Index: " + ans);
     }
 }
